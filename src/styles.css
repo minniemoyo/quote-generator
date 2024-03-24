@@ -42,7 +42,7 @@ form {
 }
 
 .quote-output {
-  text-align: left;
+  text-align: center;
   padding: 32px;
   margin: 24px auto;
   background-color: white;
@@ -50,6 +50,7 @@ form {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   font-size: 16px;
+  line-height: 24px;
 }
 
 footer {
@@ -59,4 +60,9 @@ footer {
 a {
   color: rgb(242, 112, 156);
   font-weight: 400;
+}
+.signature {
+  font-style: italic;
+  color: rgb(242, 112, 156);
+  text-align: center;
 }
