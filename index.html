@@ -9,18 +9,18 @@
   <body>
     <div class="container">
       <h1>AI Quote Generator</h1>
-      <form>
+      <form id="form-input">
         <input
           type="text"
-          placeholder="Enter a word..."
+          placeholder="Enter your quote topic here..."
           autofocus
           autocomplete="off"
           class="search-input"
+          id="search-input"
         />
-        <input type="button" value="Submit" class="submit-button" />
+        <input type="submit" value="Submit" class="submit-button" />
       </form>
-      <div class="quote-output">This is where the quote will go!</div>
-
+      <div class="quote-output" id="quoteOutput"></div>
       <footer>
         This website was coded by
         <a href="https://github.com/minniemoyo" target="_blank">Minnie Moyo</a>
