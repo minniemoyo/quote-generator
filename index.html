@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Quote Generator</title>
   </head>
   <body>
     <div class="container">
       <h1>AI Quote Generator</h1>
-      <form id="form-input">
-        <input
-          type="text"
-          placeholder="Enter your quote topic here..."
-          autofocus
-          autocomplete="off"
-          class="search-input"
-          id="search-input"
-        />
-        <input type="submit" value="Submit" class="submit-button" />
-      </form>
-      <div class="quote-output" id="quoteOutput"></div>
+      <div class="form-container">
+        <form id="form-input">
+          <input
+            type="text"
+            placeholder="Enter your quote topic here..."
+            autofocus
+            autocomplete="off"
+            class="search-input"
+            id="search-input"
+          />
+          <input type="submit" value="Submit" class="submit-button" />
+        </form>
+        <small> e.g., Love, Family, Work ... </small>
+      </div>
+
+      <div class="quote-output hidden" id="quoteOutput"></div>
       <footer>
         This website was coded by
         <a href="https://github.com/minniemoyo" target="_blank">Minnie Moyo</a>
