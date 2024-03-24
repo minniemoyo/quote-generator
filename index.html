@@ -7,29 +7,33 @@
     <title>Quote Generator</title>
   </head>
   <body>
-    <h1>AI Quote Generator</h1>
-    <form>
-      <input
-        type="text"
-        placeholder="Enter a word..."
-        autofocus
-        autocomplete="off"
-      />
-      <input type="button" value="Submit" />
-    </form>
-    <div>This is where the quote will go!</div>
-    <footer>
-      This website was coded by
-      <a href="https://github.com/minniemoyo" target="_blank">Minnie Moyo</a> ❤️
-      is hosted on
-      <a href="https://github.com/minniemoyo/quote-generator" target="_blank"
-        >Github</a
-      >
-      and the website is hosted on
-      <a href="https://minnie-quote-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <h1>AI Quote Generator</h1>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter a word..."
+          autofocus
+          autocomplete="off"
+          class="search-input"
+        />
+        <input type="button" value="Submit" class="submit-button" />
+      </form>
+      <div class="quote-output">This is where the quote will go!</div>
+
+      <footer>
+        This website was coded by
+        <a href="https://github.com/minniemoyo" target="_blank">Minnie Moyo</a>
+        🩷 is hosted on
+        <a href="https://github.com/minniemoyo/quote-generator" target="_blank"
+          >Github</a
+        >
+        and the website is hosted on
+        <a href="https://minnie-quote-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
